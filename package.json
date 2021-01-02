@@ -1,5 +1,5 @@
 {
-  "name": "shargs",
+  "name": "shargs-core",
   "version": "0.25.0",
   "description": "A highly configurable and extensible command-line arguments parser",
   "keywords": [
@@ -7,7 +7,7 @@
     "command-line",
     "parser"
   ],
-  "homepage": "https://github.com/Yord/shargs",
+  "homepage": "https://github.com/Yord/shargs-core",
   "bugs": {
     "url": "https://github.com/Yord/shargs/issues"
   },
@@ -19,7 +19,7 @@
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yord/shargs.git"
+    "url": "https://github.com/Yord/shargs-core.git"
   },
   "scripts": {
     "test": "jest --ci --coverage --collectCoverageFrom 'src/**/*.js' --logHeapUsage --passWithNoTests"
